@@ -1,0 +1,10 @@
+
+*--> ilk elemandan son elemana kadar her elemani kendinden sonra gelen, kendinden kucuk elemanlarin en kucugu ile yer degistiriyoruz.
+
+{1 , 2 , 3, 10, 6 , 4 ,7} --> {1, 2 , 3, 4, 6, 10 ,7 } --> {1, 2 ,3 , 4 , 6 , 7, 10}
+
+
+*--> time complexity = O(n2) (en iyi veya en kotu durumda bile sort islemleri O(n2)). neredeyse en yavas bu algatirma
+*--> memory usage = 1 variable. bu elemanlarin disinda kac degisken olustururum. sadece 1. o da swap islemi yaparken tempe atiyor
+
+//for icinde for yaptigimiz icin n2 . eleamnin birini sabit tutup digerlerini dolasip karsilastirma yapiyor

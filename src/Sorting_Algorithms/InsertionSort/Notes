@@ -1,0 +1,13 @@
+
+insertionsprtla siralicam--> ikinci elemanla baslar solundakine bakiyor kendinden buyukse buyugu tempe atiyor digerlerini kaydiriyor.
+
+//1de bakiyor solundaki 3 kendinden buyuk. 3 u tempe atiyor
+{2,4,5,3,1,6} --> {2,4,5,5,1,6}-->{2,4,4,5,1,6}--> {2,3,4,5,1,6}
+
+*--> TIME COMPLEXİTY --> bir elemani sabit tutup digerleriyle kiyasliyorsam nested yapiyo giriyor. o nedenle O(n2).
+( en iyi durumda O(n), en kotu durumda O(n2) )
+
+en iyi duruM gelme ihtimalinden dolayi insertion sort selection sorttan her halukarda bi tik daha hizli
+
+**MEMORY USAGE --> 1 variable
+
