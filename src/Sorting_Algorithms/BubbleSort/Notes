@@ -1,0 +1,6 @@
+ikiser ikiser elemanlara bakiyor kucuk olani basa aliyor
+
+*--> TIME COMPLEXİTY--> O(n2) -- selectionsort ve insertionsorttan daha yavastir
+
+
+*--> MEMORY USAGE--> 1 variable(temp)
